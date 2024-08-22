@@ -1,0 +1,148 @@
+body {
+    /* Define a cor padrão do texto */
+    color: #333333;
+    /* Define a família de fontes para o corpo do texto */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define o tamanho da fonte */
+    font-size: 28px;
+}
+
+h1 {
+    /* Define uma imagem de fundo para o elemento <h1> */
+    background-image: url(../img/sobre-background.jpg);
+    /* Define a margem superior do <h1> */
+    margin-top: 10px;
+    /* Define a margem inferior do <h1> */
+    margin-bottom: 1px;
+    /* Define a largura do <h1> para ocupar 100% da largura disponível */
+    width: 100%;
+}
+
+h2 {
+    /* Adiciona uma borda inferior aos elementos <h2> */
+    border-bottom: 2px solid #333333;
+    /* Define a margem superior do <h2> */
+    margin-top: 30px;
+    /* Define a margem inferior do <h2> */
+    margin-bottom: 30px;
+}
+
+figure {
+    /* Define a cor de fundo dos elementos <figure> */
+    background-color: #F2EDED;
+    /* Adiciona uma borda aos elementos <figure> */
+    border: 1px solid #ccc;
+    /* Centraliza o conteúdo dentro dos elementos <figure> */
+    text-align: center;
+    /* Adiciona um espaçamento interno de 15px ao conteúdo dentro de <figure> */
+    padding: 15px;
+    /* Define uma margem de 30px ao redor do <figure>, afastando-o de outros elementos */
+    margin: 30px;
+}
+
+figcaption {
+    /* Aplica um estilo itálico ao texto dentro do <figcaption> */
+    font-style: italic;
+    /* Adiciona uma margem superior de 10px ao <figcaption>, separando-o do conteúdo anterior */
+    margin-top: 10px;
+}
+
+p {
+    /* Adiciona um espaçamento interno de 45px à esquerda e à direita dos parágrafos */
+    padding: 0px 45px;
+    /* Indenta a primeira linha do parágrafo em 15px */
+    text-indent: 15px;
+}
+
+#centro-distribuicao {
+    /* Centraliza o elemento com o id "centro-distribuicao" horizontalmente na página */
+    margin-left: auto;
+    margin-right: auto;
+    /* Define a largura do elemento como 550px */
+    width: 550px;
+    /* Adiciona uma borda superior ao elemento */
+    border-top: 1px solid #ccc;
+}
+
+#rodape {
+    /* Define a cor do texto no rodapé */
+    color: #777;
+    /* Define uma margem acima e abaixo do rodapé */
+    margin: 30px 0;
+    /* Adiciona um espaçamento interno acima e abaixo do conteúdo do rodapé */
+    padding: 30px 0;
+}
+
+#rodape img {
+    /* Adiciona uma margem à direita nas imagens dentro do rodapé */
+    margin-right: 30px;
+    /* Alinha verticalmente as imagens ao meio do conteúdo ao lado */
+    vertical-align: middle;
+    /* Define a largura das imagens no rodapé */
+    width: 94px;
+}
+
+#familia-pelho {
+    /* Alinha o elemento com o id "familia-pelho" à direita */
+    float: right;
+    /* Define a largura do elemento */
+    width: 300px;
+    /* Define uma margem inferior de 10px e uma margem esquerda de 10px, afastando-o dos elementos ao redor */
+    margin: 0 0 10px 10px;
+}
+
+#familia-pelho figcaption {
+    /* Centraliza o texto da legenda */
+    text-align: center;
+    /* Aplica um estilo itálico ao texto da legenda */
+    font-style: italic;
+    /* Define a cor do texto da legenda */
+    color: #333;
+    /* Define a cor de fundo da legenda */
+    background-color: #f0f0f0;
+    /* Adiciona um espaçamento interno de 5px ao texto da legenda */
+    padding: 5px;
+    /* Adiciona uma borda superior na legenda */
+    border-top: 1px solid #ccc;
+}
+
+.caixaAzul {
+    /* Define a cor de fundo azul */
+    background-color: rgb(171, 171, 231);
+    /* Adiciona um espaçamento interno de 20px */
+    padding: 20px;
+    /* Centraliza o texto dentro da caixa */
+    text-align: center;
+    /* Define a largura da caixa para ocupar 100% da largura disponível */
+    width: 100%;
+    /* Centraliza a caixa na página */
+    margin: 0 auto;
+    /* Adiciona cantos arredondados */
+    border-radius: 8px;
+}
+
+.textoAzul {
+    /* Define a cor do texto como azul */
+    color: #00f;
+    /* Define o tamanho da fonte do texto */
+    font-size: 42px;
+    /* Aplica negrito ao texto */
+    font-weight: bold;
+}
+
+
+/*Inicio - Pseudo-Classes*/
+p:first-letter {
+    font-weight: bold;
+}
+
+h1+p {
+    text-indent: 0;
+}
+
+p:first-line {
+    font-variant: small-caps;
+}
+
+
+/*Fim - Pseudo-Classes*/

@@ -1,0 +1,64 @@
+/*mudando o menu de opções deixando verticalmente*/
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/*Alinhando a sacola*/
+.sacola {
+    padding-top: 8px;
+}
+
+/*Centralizando os elementos*/
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+/*Posicionando o menu a direita embaixo do header*/
+header {
+    position: relative;
+}
+
+/*Posicionando o menu a direita embaixo do header*/
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*Posicionando a sacola a direita e no topo*/
+.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*Configurando os paineis*/
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+/*Flutando o painel novidades a esquerda*/
+.novidades {
+    float: left;
+}
+
+/*Flutuando o painel mais-vendidos a direita*/
+.mais-vendidos {
+    float: right;
+}
+
+/*Colocando os itens dentro dos paineis alinhados com certo 
+espaçamento e alinhamento*/
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
