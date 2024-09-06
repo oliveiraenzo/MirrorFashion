@@ -1,37 +1,246 @@
-<!-- 
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-    
-        
-        <img src = "./img/familia-pelho.jpg">
-    
-</body>
-</html> -->
-
-
-
-
 <!DOCTYPE html>
 <html>
 
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Mirror Fashion</title>
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script" />
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
-    <h1>Olá, sou o index.html!</h1>
+    <header class="container">
 
-    <script src="js/home.js"></script>
+        <!--Link para o reset.css-->
+        <link rel="stylesheet" href="css/reset.css">
+
+        <!--Link para o estilos.css-->
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <!--Criando o cabeçalho-->
+        <h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
+
+        <!-- Conteúdo do cabeçalho -->
+        <p class="sacola">
+            Nenhum item na sacola de compras
+        </p>
+
+        <!--Links do cabeçalho-->
+        <nav class="menu-opcoes">
+            <ul>
+                <li><a href="#">Sua Conta</a></li>
+                <li><a href="#">Sua Lista de desejos</a></li>
+                <li><a href="#">Cartão Fidelidade</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="main">
+        <!-- Conteúdo principal -->
+    </section>
+
+    <section id="destaques">
+        <!-- Painéis com destaques -->
+        <div class="container destaque">
+            <section class="busca">
+                <h2>Busca</h2>
+
+                <!--Google como motor de pesquisa da barra-->
+                <form action="http://www.google.com.br/search" id="form-busca">
+                    <input type="search" name="q" id="q">
+                    <input type="image" src="img/busca.png">
+                </form>
+            </section>
+            <!--fim da busca-->
+
+            <section class="menu-departamentos">
+                <h2>Departamentos</h2>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Blusas e Camisetas</a>
+                            <ul>
+                                <li><a href="#">Manga curta</a></li>
+                                <li><a href="#">Manga comprida</a></li>
+                                <li><a href="#">Camisa social</a></li>
+                                <li><a href="#">Camisa casual</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Calças</a>
+                        </li>
+                        <li>
+                            <a href="#">Saídas</a>
+                        </li>
+                        <li>
+                            <a href="#">Vestidos</a>
+                        </li>
+                        <li>
+                            <a href="#">Sapatos</a>
+                        </li>
+                        <li>
+                            <a href="#">Bolsas e Carteiras</a>
+                        </li>
+                        <li>
+                            <a href="#">Acessórios</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section><!--Fim do Menu do Departamentos-->
+
+            <!--Banner-->
+            <section class="banner-destaque">
+                <figure id="foto-banner-destaque-home">
+                    <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+                    <a href="#" class="pause"></a>
+                </figure>
+            </section>
+        </div>
+        <!--fim .conteiner .destaque-->
+    </section>
+
+    <!--Painéis de novidades-->
+    <div class="container paineis">
+        <!--Os paineis de novidades e mais vendidos entrarão aqui-->
+        <section class="painel novidades">
+            <h2>Novidades</h2>
+            <!--Produtos-->
+            <ol>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura1.png">
+                            <figcaption>Fuzz Cardigan por R$ 129,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura2.png">
+                            <figcaption>Camiseta Básica por R$ 59,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura3.png">
+                            <figcaption>Conjunto Verde por R$ 149,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura4.png">
+                            <figcaption>Jaqueta por R$ 199,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura5.png">
+                            <figcaption>Regata Esporte por R$ 39,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura6.png">
+                            <figcaption>Regata Esporte por R$ 39,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+        </section>
+
+        <!--Os paineis mais vendidos-->
+        <section class="painel mais-vendidos">
+            <h2>Mais vendidos</h2>
+            <ol>
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura7.png">
+                            <figcaption>Camiseta Básica por R$ 59,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura8.png">
+                            <figcaption>Camiseta Básica por R$ 59,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura9.png">
+                            <figcaption>Camiseta Xadrez por R$ 119,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura10.png">
+                            <figcaption>Camiseta Manga Longa por R$ 79,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura11.png">
+                            <figcaption>Shorts por R$ 29,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="produto.html">
+                        <figure>
+                            <img src="img/produtos/miniatura12.png">
+                            <figcaption>Camisa Básica por R$ 99,90</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ol>
+        </section>
+    </div>
+
+    <!--RODAPÉ-->
+    <footer>
+        <!-- Conteúdo do rodapé -->
+        <div class="container">
+            <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
+
+            <ul class="social">
+                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+                <li><a href="http://plus.google.com/mirrorfashion"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="/js/home.js"></script>
 </body>
 
 </html>
